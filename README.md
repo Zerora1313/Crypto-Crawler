@@ -1,16 +1,32 @@
-# React + Vite
+# 🪙 Crypto Tracker Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time cryptocurrency tracking application built with **React** and **Vite**. This dashboard provides users with live financial data, interactive charts, and detailed market analysis using the CoinGecko API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🏠 Homepage
+- **Real-time Data:** View live prices for top cryptocurrencies.
+- **Search & Filter:** Instantly search for coins or filter/sort by Name, Price (Low/High), and 24h Change.
+- **View Toggle:** Switch between **Grid View** and **List View** for personalized layout.
+- **Dynamic Styling:** Visual cues (Green/Red) for positive or negative price changes.
+- **Responsive Design:** Fully optimized for Desktop, Tablet, and Mobile screens.
 
-## React Compiler
+### 📊 Coin Detail Page
+- **In-depth Analysis:** Click on any coin to view Market Cap, Volume, and detailed stats.
+- **Interactive Charts:** Visualizes price movements over the last **7 days** using `Recharts`.
+- **Navigation:** Easy "Go Back" functionality to return to the main list.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React.js, Vite
+- **Styling:** CSS3 (Responsive Flexbox/Grid)
+- **Routing:** React Router DOM
+- **Data Visualization:** Recharts
+- **API:** CoinGecko Public API
+- **State Management:** React Hooks (useState, useEffect, Custom Hooks)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation & Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
