@@ -24,9 +24,3 @@ A real-time cryptocurrency tracking application built with **React** and **Vite*
 - **Data Visualization:** Recharts
 - **API:** CoinGecko Public API
 - **State Management:** React Hooks (useState, useEffect, Custom Hooks)
-
-## ⚙️ Installation & Run Locally
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
