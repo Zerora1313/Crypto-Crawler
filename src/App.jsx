@@ -1,27 +1,18 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import Home from './components/pages/Home'
-import CoinPage from './components/pages/CoinPage' // <-- Asli Import
-import './App.css' // Design file
-
+import { BrowserRouter, Routes, Route } from "react-router";
+import { Home } from "./pages/Home";
+import { CoinDetail } from "./pages/CoinDetail";
 
 function App() {
   return (
-    <div className="app">
-      {/* Navbar Header */}
-      <nav className="navbar">
-        <h1>Crypto Tracker</h1>
-      </nav>
-
-      {/* Main Routes */}
+    <BrowserRouter>
+    {/* is project me 2 pages h isiliye react se 2 routes bna diye h  */}
+    {/* jis route pe janege wo page render ho jajega */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/coin/:id" element={<CoinPage />} />
+        <Route path="/coin/:id" element={<CoinDetail />} />
       </Routes>
-
-      
-    </div>
-  )
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
